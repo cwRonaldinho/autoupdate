@@ -1,0 +1,15 @@
+/alpha_rounding_control.hpp/1.1.1.1/Thu Apr 29 03:06:07 2010/-kkv/
+/bcc_rounding_control.hpp/1.1.1.1/Thu Apr 29 03:06:07 2010/-kkv/
+/bugs.hpp/1.1.1.1/Thu Apr 29 03:06:07 2010/-kkv/
+/c99_rounding_control.hpp/1.1.1.1/Thu Apr 29 03:06:07 2010/-kkv/
+/c99sub_rounding_control.hpp/1.1.1.1/Thu Apr 29 03:06:07 2010/-kkv/
+/division.hpp/1.1.1.1/Thu Apr 29 03:06:07 2010/-kkv/
+/ia64_rounding_control.hpp/1.1.1.1/Thu Apr 29 03:06:07 2010/-kkv/
+/interval_prototype.hpp/1.1.1.1/Thu Apr 29 03:06:07 2010/-kkv/
+/msvc_rounding_control.hpp/1.1.1.1/Thu Apr 29 03:06:07 2010/-kkv/
+/ppc_rounding_control.hpp/1.1.1.1/Thu Apr 29 03:06:07 2010/-kkv/
+/sparc_rounding_control.hpp/1.1.1.1/Thu Apr 29 03:06:07 2010/-kkv/
+/test_input.hpp/1.1.1.1/Thu Apr 29 03:06:07 2010/-kkv/
+/x86_rounding_control.hpp/1.1.1.1/Thu Apr 29 03:06:07 2010/-kkv/
+/x86gcc_rounding_control.hpp/1.1.1.1/Thu Apr 29 03:06:07 2010/-kkv/
+D

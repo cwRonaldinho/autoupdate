@@ -1,0 +1,32 @@
+/argument_factory.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/argv_traverser.cpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/argv_traverser.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/argv_traverser.ipp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/basic_parameter.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/char_parameter.cpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/char_parameter.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/char_parameter.ipp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/dual_name_parameter.cpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/dual_name_parameter.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/dual_name_parameter.ipp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/fwd.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/id_policy.cpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/id_policy.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/id_policy.ipp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/modifier.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/named_parameter.cpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/named_parameter.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/named_parameter.ipp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/parameter.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/parser.cpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/parser.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/parser.ipp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/positional_parameter.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/typed_parameter.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/validation.cpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/validation.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/validation.ipp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/value_generator.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/value_handler.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+D/detail////
+D/iface////

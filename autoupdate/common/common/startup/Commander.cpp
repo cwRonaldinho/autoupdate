@@ -1,0 +1,142 @@
+#include "stdafx.h"
+#include "Commander.h"
+#include "alarm/AlarmSender.h"
+#include "sxconst.h"
+using namespace cacti;
+
+#define new DEBUG_NEW
+
+Commander::Commander()
+{
+	m_service = createService();
+}
+
+Commander::~Commander()
+{
+}
+
+bool Commander::startService(u_short alarmport)
+{
+	cacti::Logger& syslog = Logger::getInstance(LOGGER_STARTUP_SYS);
+
+	if(m_service)
+	{
+		if(alarmport<1024)
+			alarmport = MONITOR_AGENT_PORT;
+		assert(m_service);
+		AlarmSender::createInstance(m_service.get(), alarmport, m_service->version(), m_service->displayName());
+
+		// output the version information
+		syslog.info("%s\n", m_service->versioninfo());
+		FILE* fp = fopen("./version_autoupdate.txt", "wt");
+		if(fp)
+		{
+			fprintf(fp, "%s\n", m_service->versioninfo());
+			fclose(fp);
+		}
+
+		if(m_service->start())
+		{
+			syslog.info("Service started\n");
+			return true;
+		}
+		else
+		{
+			syslog.error("Start service failed!\n");
+			return false;
+		}
+	}
+	return false;
+}
+
+void Commander::stopService()
+{
+	if(m_service)
+	{
+		m_service->stop();
+	}
+	AlarmSender*alarm = AlarmSender::getInstance();
+	if(alarm)
+		alarm->unregisterService();
+	cacti::Thread::yield();
+	AlarmSender::destroyInstance();
+}
+
+void Commander::handleUICommand(const char* cmd)
+{
+	std::vector<std::string> vec;
+	std::map<std::string, std::string> cmdmap;
+
+	cacti::StringUtil::split(vec, cmd, "=: ");
+	for( size_t i= 0; i < vec.size() ; i++)
+		cacti::StringUtil::toLower(vec[i]);
+
+	m_service->dispatchUICommand(vec);
+}
+
+const char* Commander::serviceVersion()
+{
+	if(m_service)
+	{
+		return m_service->version();
+	}
+	return "";
+}
+
+const char* Commander::serviceName()
+{
+	if(m_service)
+	{
+		return m_service->name();
+	}
+	return "";
+}
+
+const char* Commander::displayName()
+{
+	if(m_service)
+		return m_service->displayName();
+	else
+		return "";
+}
+
+
+CmdOptionMap CmdOption::m_cmdOptionMap;
+cacti::RecursiveMutex CmdOption::m_lock;
+
+void CmdOption::setCmdOption(int argc, char* argv[])
+{
+	cacti::RecursiveMutex::ScopedLock  scopedlock(m_lock);
+	std::vector<std::string> vec;
+	for(int i=1; i<argc; ++i)
+	{
+		// support args with parameter values
+		// -arg1:11 -arg2=3
+		cacti::StringUtil::split(vec, argv[i], "=:", 2);
+		if(vec.size() >= 2)
+			m_cmdOptionMap.insert(std::make_pair(vec[0], vec[1]));
+		else
+			m_cmdOptionMap.insert(std::make_pair(argv[i], ""));
+	}
+
+}
+
+bool CmdOption::hasCmdOption(std::string option)
+{
+	cacti::RecursiveMutex::ScopedLock  scopedlock(m_lock);
+	if( m_cmdOptionMap.find(option)!= m_cmdOptionMap.end() )
+		return true;
+	return false;
+
+}
+std::string CmdOption::getCmdOption(std::string option)
+{
+	cacti::RecursiveMutex::ScopedLock  scopedlock(m_lock);
+	CmdOptionMap::iterator it = m_cmdOptionMap.find(option);
+	if( it!= m_cmdOptionMap.end() )
+		return (*it).second;
+	else
+		return "";
+
+
+}

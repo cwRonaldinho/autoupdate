@@ -1,0 +1,26 @@
+/encode_decode.hpp/1.1.1.1/Thu Apr 29 03:06:15 2010/-kkv/
+/encode_decode_params.hpp/1.1.1.1/Thu Apr 29 03:06:15 2010/-kkv/
+/incr_registration_group.hpp/1.1.1.1/Thu Apr 29 03:06:15 2010/-kkv/
+/int_encoding.hpp/1.1.1.1/Thu Apr 29 03:06:15 2010/-kkv/
+/integral_template_param.hpp/1.1.1.1/Thu Apr 29 03:06:15 2010/-kkv/
+/message.hpp/1.1.1.1/Thu Apr 29 03:06:15 2010/-kkv/
+/modifiers.hpp/1.1.1.1/Thu Apr 29 03:06:15 2010/-kkv/
+/native.hpp/1.1.1.1/Thu Apr 29 03:06:15 2010/-kkv/
+/pointers_data_members.hpp/1.1.1.1/Thu Apr 29 03:06:15 2010/-kkv/
+/register_functions.hpp/1.1.1.1/Thu Apr 29 03:06:15 2010/-kkv/
+/register_functions_iterate.hpp/1.1.1.1/Thu Apr 29 03:06:15 2010/-kkv/
+/register_fundamental.hpp/1.1.1.1/Thu Apr 29 03:06:15 2010/-kkv/
+/register_mem_functions.hpp/1.1.1.1/Thu Apr 29 03:06:15 2010/-kkv/
+/template_encoding.hpp/1.1.1.1/Thu Apr 29 03:06:15 2010/-kkv/
+/template_template_param.hpp/1.1.1.1/Thu Apr 29 03:06:15 2010/-kkv/
+/type_encoding.hpp/1.1.1.1/Thu Apr 29 03:06:15 2010/-kkv/
+/type_template_param.hpp/1.1.1.1/Thu Apr 29 03:06:15 2010/-kkv/
+/typeof.hpp/1.1.1.1/Thu Apr 29 03:06:15 2010/-kkv/
+/typeof_impl.hpp/1.1.1.1/Thu Apr 29 03:06:15 2010/-kkv/
+/vector.hpp/1.1.1.1/Thu Apr 29 03:06:15 2010/-kkv/
+/vector100.hpp/1.1.1.1/Thu Apr 29 03:06:15 2010/-kkv/
+/vector150.hpp/1.1.1.1/Thu Apr 29 03:06:16 2010/-kkv/
+/vector200.hpp/1.1.1.1/Thu Apr 29 03:06:17 2010/-kkv/
+/vector50.hpp/1.1.1.1/Thu Apr 29 03:06:17 2010/-kkv/
+D/msvc////
+D/std////

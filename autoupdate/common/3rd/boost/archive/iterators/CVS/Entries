@@ -1,0 +1,19 @@
+/base64_exception.hpp/1.1.1.1/Thu Apr 29 03:06:00 2010/-kkv/
+/base64_from_binary.hpp/1.1.1.1/Thu Apr 29 03:06:00 2010/-kkv/
+/binary_from_base64.hpp/1.1.1.1/Thu Apr 29 03:06:00 2010/-kkv/
+/dataflow.hpp/1.1.1.1/Thu Apr 29 03:06:00 2010/-kkv/
+/dataflow_exception.hpp/1.1.1.1/Thu Apr 29 03:06:00 2010/-kkv/
+/escape.hpp/1.1.1.1/Thu Apr 29 03:06:00 2010/-kkv/
+/head_iterator.hpp/1.1.1.1/Thu Apr 29 03:06:00 2010/-kkv/
+/insert_linebreaks.hpp/1.1.1.1/Thu Apr 29 03:06:00 2010/-kkv/
+/istream_iterator.hpp/1.1.1.1/Thu Apr 29 03:06:00 2010/-kkv/
+/mb_from_wchar.hpp/1.1.1.1/Thu Apr 29 03:06:00 2010/-kkv/
+/ostream_iterator.hpp/1.1.1.1/Thu Apr 29 03:06:00 2010/-kkv/
+/remove_whitespace.hpp/1.1.1.1/Thu Apr 29 03:06:00 2010/-kkv/
+/transform_width.hpp/1.1.1.1/Thu Apr 29 03:06:00 2010/-kkv/
+/unescape.hpp/1.1.1.1/Thu Apr 29 03:06:00 2010/-kkv/
+/wchar_from_mb.hpp/1.1.1.1/Thu Apr 29 03:06:00 2010/-kkv/
+/xml_escape.hpp/1.1.1.1/Thu Apr 29 03:06:00 2010/-kkv/
+/xml_unescape.hpp/1.1.1.1/Thu Apr 29 03:06:00 2010/-kkv/
+/xml_unescape_exception.hpp/1.1.1.1/Thu Apr 29 03:06:00 2010/-kkv/
+D

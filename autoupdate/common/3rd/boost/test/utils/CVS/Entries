@@ -1,0 +1,16 @@
+/algorithm.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/assign_op.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/callback.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/class_properties.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/custom_manip.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/fixed_mapping.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/foreach.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/named_params.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/nullstream.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/rtti.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/trivial_singleton.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/wrap_stringstream.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+/xml_printer.hpp/1.1.1.1/Thu Apr 29 03:06:14 2010/-kkv/
+D/basic_cstring////
+D/iterator////
+D/runtime////

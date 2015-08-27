@@ -1,0 +1,13 @@
+/SybaseFieldDescription.cpp/1.1.1.1/Thu Apr 29 03:15:24 2010/-kkv/
+/SybaseFieldDescription.h/1.1.1.1/Thu Apr 29 03:15:24 2010/-kkv/
+/driver_sybase.cpp/1.1.1.1/Thu Apr 29 03:15:24 2010/-kkv/
+/sybaseBindParam.cpp/1.1.1.1/Tue May 11 03:00:18 2010/-kkv/
+/sybaseBindParam.h/1.1.1.1/Thu Apr 29 03:15:24 2010/-kkv/
+/sybaseConnection.cpp/1.1.1.1/Thu Apr 29 03:15:24 2010/-kkv/
+/sybaseConnection.h/1.1.1.1/Thu Apr 29 03:15:24 2010/-kkv/
+/sybaseQuery.cpp/1.1.1.1/Thu Apr 29 03:15:24 2010/-kkv/
+/sybaseQuery.h/1.1.1.1/Thu Apr 29 03:15:24 2010/-kkv/
+/sybaseValue.cpp/1.1.1.1/Thu Apr 29 03:15:24 2010/-kkv/
+/sybaseValue.h/1.1.1.1/Thu Apr 29 03:15:24 2010/-kkv/
+D/sybase_inc////
+D/sybase_lib////

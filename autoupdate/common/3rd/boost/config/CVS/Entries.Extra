@@ -1,0 +1,15 @@
+/abi_prefix.hpp///1272510360/
+/abi_suffix.hpp///1272510360/
+/auto_link.hpp///1272510360/
+/posix_features.hpp///1272510360/
+/requires_threads.hpp///1272510360/
+/select_compiler_config.hpp///1272510360/
+/select_platform_config.hpp///1272510360/
+/select_stdlib_config.hpp///1272510360/
+/suffix.hpp///1272510360/
+/user.hpp///1272510360/
+D/abi////
+D/compiler////
+D/no_tr1////
+D/platform////
+D/stdlib////

@@ -1,0 +1,19 @@
+/basic_regex.hpp/1.1.1.1/Thu Apr 29 03:06:19 2010/-kkv/
+/match_results.hpp/1.1.1.1/Thu Apr 29 03:06:19 2010/-kkv/
+/regex_algorithms.hpp/1.1.1.1/Thu Apr 29 03:06:19 2010/-kkv/
+/regex_compiler.hpp/1.1.1.1/Thu Apr 29 03:06:19 2010/-kkv/
+/regex_constants.hpp/1.1.1.1/Thu Apr 29 03:06:19 2010/-kkv/
+/regex_error.hpp/1.1.1.1/Thu Apr 29 03:06:19 2010/-kkv/
+/regex_iterator.hpp/1.1.1.1/Thu Apr 29 03:06:19 2010/-kkv/
+/regex_primitives.hpp/1.1.1.1/Thu Apr 29 03:06:19 2010/-kkv/
+/regex_token_iterator.hpp/1.1.1.1/Thu Apr 29 03:06:19 2010/-kkv/
+/regex_traits.hpp/1.1.1.1/Thu Apr 29 03:06:19 2010/-kkv/
+/sub_match.hpp/1.1.1.1/Thu Apr 29 03:06:19 2010/-kkv/
+/xpressive.hpp/1.1.1.1/Thu Apr 29 03:06:19 2010/-kkv/
+/xpressive_dynamic.hpp/1.1.1.1/Thu Apr 29 03:06:19 2010/-kkv/
+/xpressive_fwd.hpp/1.1.1.1/Thu Apr 29 03:06:19 2010/-kkv/
+/xpressive_static.hpp/1.1.1.1/Thu Apr 29 03:06:19 2010/-kkv/
+/xpressive_typeof.hpp/1.1.1.1/Thu Apr 29 03:06:19 2010/-kkv/
+D/detail////
+D/proto////
+D/traits////
